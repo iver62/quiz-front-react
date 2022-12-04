@@ -1,0 +1,19 @@
+.card {
+  margin: 8px;
+}
+
+.question {
+  margin: 4px;
+  text-align: center;
+}
+
+.buttons-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.answer {
+  margin: 5px 0;
+  width: fit-content;
+  align-self: center;
+}

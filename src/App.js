@@ -1,7 +1,8 @@
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Questionnaire from './pages/Questionnaire';
 import Home from './pages/Home';
+import QuestionAdd from './pages/QuestionAdd';
+import Questionnaire from './pages/Questionnaire';
 import Ranking from './pages/Ranking';
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
           <Route path='/' element={<Home />} />
           <Route path='/ranking' element={<Ranking />} />
           <Route path='/questionnaire' element={<Questionnaire />} />
+          <Route path='/add-question' element={<QuestionAdd />} />
           <Route path='*' element={<Home />} />
         </Routes>
       </BrowserRouter>

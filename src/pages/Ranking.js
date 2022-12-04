@@ -1,6 +1,6 @@
+import MaterialReactTable from 'material-react-table';
 import React, { useMemo } from 'react';
 import Navigation from '../components/Navigation';
-import MaterialReactTable from 'material-react-table';
 
 const data = [
   {
